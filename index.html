@@ -11,24 +11,14 @@
             width: 100%;
             height: 100%;
             font-family: Arial, sans-serif;
+	    background: url('Background_3.jpg') no-repeat center center absolute;
+	    background-size: cover;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             padding-bottom: 85px; 
         }
-
-	     .fixed-background {
-	     position: fixed;
-	     top: 0;
-	     left: 0;
-	     width: 100%;
-	     height: 100%;
-	     background-image: url('Background_3.jpg') no-repeat center center fixed;
-	     background-size: cover;
-	     background-position: center;
-	     z-index: -1; 
-	}
 		
         .image-row {
             display: flex;
@@ -121,9 +111,6 @@
         		<source src="CpDay.mp3" type="audio/mpeg">
         		Your browser does not support the audio element.
    		</audio>
-		<div class="fixed background">
-			<img scr="Background_3.jpg">
-		</div>
 		<div class="image-row">
 			<img src="Me.jpg" alt="">
 			<img src="Him.jpg" alt="">
